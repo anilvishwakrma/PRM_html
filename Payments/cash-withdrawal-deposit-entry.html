@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/../assets/svg/logo.svg">
+    <!-- ==== bootstrap 5.3 ==== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- === font-awesome === -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+        integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ========={ css link }========== -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- ========{ Responsive CSS }========= -->
+    <link rel="stylesheet" href="../assets/responsive/responsive.css">
+    <script src="../assets/js/index.js"></script>
+
+    <title>PRM</title>
+
+</head>
+
+<body>
+    <div class="main_div">
+
+        <div class="sitebar">
+
+            <div class="sitebar_fix">
+                <a href="../index.html" class="site_logo">
+                    <img src="../assets/svg/logo.svg" alt="">
+                </a>
+                <div class="site_bar_menu">
+                    <ul id="sitecall">
+                        <li class=" active menu_items">
+                            <a href="../index.html">
+                                <span><img src="../assets/PRM Assets/Icons/dashboard-white.png"
+                                        alt="dashboard-white"></span>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="menu_items">
+                            <a href="#">
+                                <span><img src="../assets/PRM Assets/Icons/entry.png" alt=""></span>
+                                <span>Entry</span>
+                            </a>
+                        </li>
+                        <li class="menu_items">
+                            <a data-bs-toggle="collapse" href="#sitecall_1" aria-expanded="false"
+                                aria-controls="sitecall_1">
+                                <span><img src="../assets/PRM Assets/Icons/farmer.png" alt=""></span>
+                                <span>Farmer Related</span>
+                            </a>
+                            <ul class="collapse" id="sitecall_1" data-bs-parent="#sitecall">
+                                <li>
+                                    <a href="../farmer-related/farmer-patti-report.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Farmer Patti Report</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../farmer-related/patti-nond-report.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Patti Nond Report</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../farmer-related/sahi-pushtak-report.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Sahi Pustak Report</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../farmer-related/patti-summary-report.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Patti Summary Report</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../farmer-related/patti-summary-2.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Patti Summary 2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_items">
+                            <a data-bs-toggle="collapse" href="#sitecall_colle" aria-expanded="false"
+                                aria-controls="sitecall_colle">
+                                <span><img src="../assets/PRM Assets/Icons/customer.png" alt=""></span>
+                                <span>Customer Related</span>
+                            </a>
+                            <ul class="collapse" id="sitecall_colle" data-bs-parent="#sitecall">
+                                <li>
+                                    <a href="../customer-related/bill-report.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Bill Report</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../customer-related/udhar-nond-awhal.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Udhar Nond Report</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../customer-related/hamal-vajan-chitti-jawak-report.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Hamal Vajan Chitti- Javak Report</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../customer-related/customer-summary-report.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Customer Summury Report</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../customer-related/bill-summary-2.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Bill Summary 2</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../customer-related/vatav-register.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Vatav register</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../customer-related/vyapari-shilak-bill-khawani.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Vyapari Shilak Bill Khawani </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../customer-related/bill-jama-avhal.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Bill Jama Avhal </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_items">
+                            <a data-bs-toggle="collapse" href="#sitecall_2" aria-expanded="false"
+                                aria-controls="sitecall_2">
+                                <span><img src="../assets/PRM Assets/Icons/accounts.png" alt=""></span>
+                                <span>⁠⁠Accounts Related</span>
+                            </a>
+                            <ul class="collapse" id="sitecall_2" data-bs-parent="#sitecall">
+                                <li>
+                                    <a href="../accounts-related/farmer-balance-summary.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Farmer Balance Summary</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../accounts-related/farmer-ledger-details.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Farmer Ledger Details</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../accounts-related/farmer-ledger-patti-wise.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Farmer Ledger Patti Wise</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../accounts-related/customer-balance-summary.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Customer Balance Summary</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../accounts-related/customer-ledger-format_1.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Customer Ledger Format 1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../accounts-related/customer-ledger-format_2.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Customer Ledger Format 2</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../accounts-related/bank-balance-summary.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Bank Balance Summary</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../accounts-related/bank-ledger-details.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Bank Ledger Details</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="menu_items">
+                            <a data-bs-toggle="collapse" href="#sitecall_5" aria-expanded="false"
+                                aria-controls="sitecall_5">
+                                <span><img src="../assets/PRM Assets/Icons/market.png" alt=""></span>
+                                <span>Market Committee Related</span>
+                            </a>
+                            <ul class="collapse" id="sitecall_5" data-bs-parent="#sitecall">
+                                <li>
+                                    <a href="../market-commitee-related/bajar-avhal.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Bajar Avahal</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../market-commitee-related/market-commitee-summary.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Market Commitee Summary</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../market-commitee-related/market-commiteee-month-wise.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Market Commitee Month Wise</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../market-commitee-related/market-fee-report.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Market Fee Report</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_items">
+                            <a data-bs-toggle="collapse" href="#sitecall_3" aria-expanded="false"
+                                aria-controls="sitecall_3">
+                                <span><img src="../assets/PRM Assets/Icons/financial.png" alt=""></span>
+                                <span>Financial Accounting Related</span>
+                            </a>
+                            <ul class="collapse" id="sitecall_3" data-bs-parent="#sitecall">
+                                <li>
+                                    <a href="../financial-accounting-related/cashbook.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Cashbook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financial-accounting-related/daybook.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Daybook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financial-accounting-related/trial-balance.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Trail Balance</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financial-accounting-related/profit-loss-report.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Profit Loss Report</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financial-accounting-related/balance-sheet.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Balance Sheet</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_items">
+                            <a data-bs-toggle="collapse" href="#sitecall_4" aria-expanded="false"
+                                aria-controls="sitecall_4">
+                                <span><img src="../assets/PRM Assets/Icons/payments.png" alt=""></span>
+                                <span>Payments</span>
+                            </a>
+                            <ul class="collapse" id="sitecall_4" data-bs-parent="#sitecall">
+                                <li>
+                                    <a href="./farmer-patti-payment.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Farmer Patti Payment</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./customer-receipt-entry.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Customer Receipt Entry</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./external-uchal-payment.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>External UCHAL Payment</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./other-accounts-receipt-entry.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Other Accounts Receipt Entry</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./Other-accounts-payment-entry.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Other Accounts Payment Entry</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./cash-withdrawal-deposit-entry.html">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Cash Withdrawal Deposit Entry</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_items">
+                            <a href="../setup.html">
+                                <span><img src="../assets/PRM Assets/Icons/setup.png" alt=""></span>
+                                <span>Setup</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="site_Connect">
+                    <h1>Need any Services! <br> Connect Us…</h1>
+                    <p>We have worked with some of the best innovative ideas that have improved Institutional
+                        Digitalization Processed.</p>
+                    <button>Connect</button>
+                </div>
+            </div>
+        </div>
+        <div class="body_content">
+            <div class="header">
+                <button class="show-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="user_name">
+                    <p>Welcome, Rizwan Sayyed</p>
+                </div>
+                <div class="user_login">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../assets/svg/edit_icons.svg" alt="">
+                                <span data-bs-toggle="modal" data-bs-target="#exitmodal">Exit</span>
+                            </a>
+                        </li>
+                        <li class="user_login_header">
+                            <a href="#">
+                                <img src="../assets/svg/user_login.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_body_page">
+                <div class="main_body_content">
+                    <div class="Accounts_Related_screen">
+                        <div class=" Accounts_Related_date_time">
+                            <div class="Accounts_Related_screen_name">
+                                <span><b>Payments </b></span>
+                                <span>Cash Withdrawal Deposit Entry</span>
+                            </div>
+                            <div class="Accounts_Related_screen_name">
+                                <ul>
+                                    <li data-bs-toggle="modal" data-bs-target="#exitmodal1" style="cursor: pointer;"
+                                        class="Accounts_Related_XYS"><b>Firm Name:</b> XYS</li>
+                                    <li data-bs-toggle="modal" data-bs-target="#exitmodal2" style="cursor: pointer;">
+                                        <b>Financial Year:</b> 01/04/2023 - 31/03/2024
+                                    </li>
+                                    <li><b>Date:</b> 04/03/2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="Accounts_Related_Table">
+                            <div class="Payments_entry_cont">
+                                <div class="Payments_entry_grid  ">
+                                    <div class="Payments_entry_form">
+                                        <span>Voucher No:</span>
+                                        <div class="input_entry_form button_input_entry">
+                                            <input type="text">
+                                            <button class="display_button">Show</button>
+                                        </div>
+                                    </div>
+                                    <div class="Payments_entry_form">
+                                        <span>Bank Name:</span>
+                                        <div class="input_entry_form">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="Payments_entry_form">
+                                        <span>Amount:</span>
+                                        <div class="input_entry_form">
+                                            <select name="cars">
+                                                <option value="volvo"></option>
+                                                <option value="saab"></option>
+                                                <option value="mercedes"></option>
+                                                <option value="audi"></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="Payments_entry_form">
+                                        <span>Remark:</span>
+                                        <div class="input_entry_form">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Payments_entry_grid entry_grid_second">
+                                    <div class="Payments_entry_form">
+                                        <span>Voucher Date:</span>
+                                        <div class="input_entry_form button_input_entry">
+                                            <input class="date_input_other_account" type="date">
+                                        </div>
+                                    </div>
+                                    <div class="Payments_entry_form">
+                                        <span>Voucher Type::</span>
+                                        <div class="input_entry_form">
+                                            <select name="cars">
+                                                <option value="volvo"></option>
+                                                <option value="saab"></option>
+                                                <option value="mercedes"></option>
+                                                <option value="audi"></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="Payments_entry_form">
+                                        <span>Cheque No:</span>
+                                        <div class="input_entry_form">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="print_button">
+                        <button>
+                            <img src="../assets/PRM Assets/Icons/buttons/btn-bin.png" alt="">
+                            <span>Delete</span>
+                        </button>
+                        <button>
+                            <img src="../assets/PRM Assets/Icons/buttons/btn-save.png" alt="">
+                            <span>Save</span>
+                        </button>
+                    </div>
+                    <div class="marquee_tag">
+                        <marquee direction="left" onMouseOver="this.stop()" onMouseOut="this.start()">
+                            <ul>
+                                <li>
+                                    <a href="#">Pune</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mumbai</a>
+                                </li>
+                                <li>
+                                    <a href="#">Solapur</a>
+                                </li>
+                                <li>
+                                    <a href="#">Satara</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sangli</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nashik</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shrirampur</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sangamner</a>
+                                </li>
+                            </ul>
+                        </marquee>
+                    </div>
+                    <div class="copy_right">
+                        <p>Copyright © 2023 PRM Group. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="exitmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content exit_modal_cont">
+                <div class="modal-body">
+                    <div class="Exit_From_System">
+                        <h3>Exit From System</h3>
+                        <p>Are You Sure You Wanted To Exit From The System?</p>
+                        <button style="background-color: transparent;border: 1px solid #FFFFFF"
+                            data-bs-dismiss="modal">Yes</button>
+                        <button style="background-color: #fff;color: #000;" data-bs-dismiss="modal">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Select Firm Popup Modal -->
+
+
+    <div class="modal fade" id="exitmodal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered custom-modal-width">
+            <div class="modal-content exit_modal_cont" style="height: 400px; width: 650px;">
+                <div class="modal-body">
+                    <div class="Exit_From_System">
+                        <h3 style="margin-bottom: 15px;">Select Firm</h3>
+                        <p>Lorem ipsum dolor sit amets distinctio impedit! In, vero. Lorem, ipsum dolor.
+                        </p>
+                        <div class="inner_content">
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>Firm Name Comes Here</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>Firm Name Comes Here</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>Firm Name Comes Here</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>Firm Name Comes Here</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>Firm Name Comes Here</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>Firm Name Comes Here</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>Firm Name Comes Here</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>Firm Name Comes Here</p>
+                            </div>
+
+                        </div>
+                        <button
+                            style="background-color: #fff;color: #000; margin-top: 30px; padding: 10px 40px; font-size: large;"
+                            data-bs-dismiss="modal">Next </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Select Financial Year Popup Modal -->
+
+    <div class="modal fade" id="exitmodal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered custom-modal-width">
+            <div class="modal-content exit_modal_cont" style="height: 400px; width: 650px;">
+                <div class="modal-body">
+                    <div class="Exit_From_System">
+                        <h3 style="margin-bottom: 15px;">Select Financial Year</h3>
+                        <p>Lorem ipsum dolor sit amets distinctio impedit! In, vero. Lorem, ipsum dolor.
+                        </p>
+                        <div class="inner_content">
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>2023-2024</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>2023-2024</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>2023-2024</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>2023-2024</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>2023-2024</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>2023-2024</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>2023-2024</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>2023-2024</p>
+                            </div>
+                            <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                <span><i class="fa-solid fa-arrow-right"
+                                        style="font-size: smaller;margin-left: 40px;margin-right: 10px;"></i></span>
+                                <p>2023-2024</p>
+                            </div>
+                        </div>
+                        <button
+                            style="background-color: #fff;color: #000; margin-top: 30px; padding: 10px 40px; font-size: large;"
+                            data-bs-dismiss="modal">Submit </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

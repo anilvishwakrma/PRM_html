@@ -1,0 +1,1317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #EFF6FF;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #444444;
+    text-decoration: none;
+}
+
+button {
+    background: #0093DD;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 24px;
+}
+
+/* table {
+    border-collapse: collapse;
+} */
+table {
+    border-collapse: separate !important;
+    border-spacing: 0;
+}
+
+b {
+    font-weight: 500;
+}
+
+td {
+    height: 34px;
+}
+
+/* ==========={ Login page css }=========== */
+
+.loginPage {
+    background-image: url("../images/loginBg.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.loginContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    background: white;
+    width: 430px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginInnerImage {
+    width: 410px;
+    height: 450px;
+    position: relative;
+    background-color: #1e1916;
+}
+
+img.loginImage {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+img.logo {
+    position: absolute;
+    top: 200px;
+    right: 128px;
+}
+
+.imageTitle {
+    color: aliceblue;
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.titleContent-1 {
+    font-size: small;
+    color: #0093dd;
+    margin: 0;
+}
+
+p.titleContent-2 {
+    width: 70%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.loginHeading {
+    display: flex;
+    margin-left: 60px;
+    padding: 30px 0;
+}
+
+.loginHeading a {
+    padding: 20px 15px;
+    border-bottom: 2px solid #eeeeee;
+    color: #aaaaaa;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.loginHeading a:hover {
+    border-color: #0093DD !important;
+    color: #0093DD !important;
+    text-decoration: none;
+}
+
+.Auth_form_button {
+    border-color: #0093DD !important;
+    color: #0093DD !important;
+    text-decoration: none;
+}
+
+.Auth-form .form-control:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+.Auth-form .form-control {
+    padding: 1.375rem 1.3rem !important;
+    color: #aaaaaa !important;
+    background-color: #F3F4F5 !important;
+}
+
+.form_Button {
+    padding: 8px 55px !important;
+    background-color: #0093DD !important;
+}
+
+#pass_word {
+    position: relative;
+}
+
+i.Pass_hide_icon.fa-regular.fa-eye-slash {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    color: #AAAAAA;
+}
+
+/* === site bar css === */
+
+.sitebar_fix {
+    border-right: 1px solid #D6E3F5;
+    background: #FFFFFF;
+    overflow: scroll;
+    /* height: 100vh; */
+    padding: 20px;
+    width: 292px;
+}
+
+ul#sitecall {
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+.sitebar_fix::-webkit-scrollbar {
+    display: none;
+}
+
+.site_bar_menu li {
+    /* background: #EFF6FF; */
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.site_bar_menu li.menu_items {
+    background: #EFF6FF;
+}
+
+.site_bar_menu li.menu_items:nth-child(2) {
+    display: none;
+}
+
+.site_bar_menu li.active {
+    background: #0093DD;
+}
+
+.site_bar_menu li.active span {
+    color: #fff;
+}
+
+.site_bar_menu li a {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.site_bar_menu li a span:nth-child(2) {
+    margin-left: 10px;
+    font-size: small;
+}
+
+.site_bar_menu ul li i {
+    color: #444444;
+    border-radius: 50%;
+    border: 1px solid #444444;
+    width: 16px;
+    height: 16px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.site_bar_menu ul li ul li {
+    border-bottom: 1px solid #D6E3F5;
+    border-radius: 0;
+    background: #fff;
+}
+
+.site_bar_menu ul li ul li:last-child {
+    border: none;
+}
+
+.site_bar_menu ul li ul {
+    background: #fff;
+}
+
+.site_logo {
+    margin-bottom: 15px;
+}
+
+.main_div {
+    display: flex;
+    width: 100%;
+}
+
+.site_Connect {
+    background: #0093DD;
+    border-radius: 4px;
+    padding: 15px 15px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.menu_items a img {
+    width: 24px;
+}
+
+.site_Connect h1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.site_Connect p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.site_Connect button {
+    background: #FFFFFF;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #0093DD;
+    margin-top: 0px;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 25px 18px;
+    width: 100%;
+}
+
+.user_login {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.body_content {
+    width: 100%;
+}
+
+li.user_login_header a {
+    background: #0093DD;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_login li {
+    display: inline-block;
+    padding-left: 18px;
+}
+
+.user_login li a {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.user_login li a span {
+    padding-left: 8px;
+}
+
+.main_body_content {
+    background: #fff;
+    border: 1px solid #D6E3F5;
+    border-radius: 12px;
+    padding: 25px 25px 55px 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.main_body_page {
+    padding: 0 18px;
+}
+
+/* ======Accounts Related======= */
+.Accounts_Related_date_time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
+    font-size: small;
+}
+
+.Accounts_Related_screen_name li {
+    display: inline-block;
+    padding-left: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.Accounts_Related_screen_name span {
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.Accounts_Related_Table_from_to_date {
+    display: flex;
+    align-items: center;
+}
+
+.Table_from_to_date {
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+}
+
+.Table_from_to_date span {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 9px;
+    color: #444444;
+}
+
+.Table_from_to_date input {
+    border-radius: 4px;
+    border: 1px solid #D6E3F5;
+    width: 170px;
+    padding: 7px 10px;
+}
+
+input.Supplier_Name {
+    width: 280px;
+}
+
+.Accounts_Related_Table {
+    border: 1px solid #D6E3F5;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.Accounts_Related_Table_cont table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    border-collapse: separate !important;
+    border-spacing: 0;
+    border: 1px solid #D6E3F5;
+    /* border-radius: 10px; */
+}
+
+.Accounts_Related_Table_cont table td {
+    border: 1px solid #D6E3F5;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+tr.table_heding {
+    background: #0093DD;
+}
+
+tr.table_heding th {
+    padding: 7px 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.print_button {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.print_button button img {
+    width: 20px;
+    margin-right: 4px;
+}
+
+.print_button button {
+    padding: 9px 6.5px;
+    font-size: 13px;
+}
+
+
+.print_button button .print_button button span {
+    margin-left: 5px;
+}
+
+/* ===========Secons_screen on S...========================= */
+.Accounts_Related_Total {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: right;
+}
+
+.Accounts_Related_Total p {
+    margin: 0;
+    font-size: 14px;
+    color: #444444;
+    width: 45px;
+    font-weight: 500;
+}
+
+.Accounts_Related_Total span {
+    border: 1px solid #D6E3F5;
+    border-radius: 4px;
+    width: 130px;
+    padding: 7px 9px;
+    margin-left: 13px;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    height: 37px;
+}
+
+.Accounts_Related_Table_toal_am {
+    margin-top: 12px;
+}
+
+
+/* ======={ Financial Accounted Related }======== */
+
+.table_name {
+    padding-top: 20px;
+    margin: 0 !important;
+    line-height: 0.2;
+}
+
+.Financial_Accounts_Related_Total {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: right;
+}
+
+.Financial_Accounts_Related_Total p {
+    margin: 0;
+    font-size: 14px;
+    color: #444444;
+    width: 90px;
+    font-weight: 500;
+    text-align: end;
+}
+
+.Financial_Accounts_Related_Total span {
+    border: 1px solid #D6E3F5;
+    border-radius: 4px;
+    width: 130px;
+    padding: 7px 9px;
+    margin-left: 13px;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    display: block;
+}
+
+.Accounts_Related_Table_toal_am {
+    margin-top: 12px;
+}
+
+/* ===================== and ================================== */
+
+.total_flex_amount span {
+    margin: 0;
+}
+
+.total_flex_amount p {
+    text-align: left;
+    margin-bottom: 7px;
+    height: 21px;
+}
+
+.total_flex_amount {
+    margin-left: 13px;
+}
+
+span.total_active_payment {
+    background: #EFF6FF;
+    border: 1px solid #D6E3F5;
+}
+
+.Farmer_Name_input input {
+    border-radius: 4px;
+    border: 1px solid #D6E3F5;
+    width: 170px;
+    padding: 7px 10px;
+    width: 300px;
+    margin-right: 15px;
+}
+
+.Farmer_Name_input a {
+    border: 1px solid #D6E3F5;
+    background: #EFF6FF;
+    width: 187px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.Farmer_Name_input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date_form_to_fild {
+    border-bottom: 1px solid #D6E3F5;
+    padding-bottom: 20px;
+    padding: 15px;
+}
+
+.row.table_row_cont {
+    padding: 15px;
+}
+
+/* ===============Payments page================. */
+.Payments_entry_cont {
+    display: flex;
+
+}
+
+.Payments_entry_form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.Payments_entry_form input,
+.input_entry_form select {
+    border: 1px solid #D6E3F5;
+    border-radius: 4px;
+    padding: 7px 10px;
+    width: 100%;
+}
+
+.Payments_entry_grid {
+    width: 37%;
+}
+
+.input_entry_form {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.input-group_s {
+    margin-top: 4px !important;
+}
+
+.Payments_entry_form span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    max-width: 108px;
+    width: 100%;
+    text-align: end;
+}
+
+.input_entry_form.button_input_entry button {
+    margin-left: 10px;
+}
+
+.Payments_entry_grid.entry_grid_second {
+    margin-left: 25px;
+}
+
+.Farmer_Patti_Payment_details input {
+    border: 1px solid #D6E3F5;
+    background: #ffff;
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 13px;
+}
+
+.Farmer_Patti_Payment_details_grid p {
+    background: #EFF6FF;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.Farmer_Patti_Payment_details .input-group {
+    align-items: center;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.Accounts_Related_Table_toal_am.sfdf_payme_tottttl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Accounts_Related_Table_toal_am.sfdf_payme_tottttl p {
+    width: fit-content;
+}
+
+.Farmer_Patti_Payment_details .input-group span {
+    font-size: 14px;
+    font-weight: 400;
+    width: 131px;
+}
+
+.Farmer_Patti_Payment_details_grid {
+    display: flex;
+    /* align-items: center; */
+}
+
+/* ========== Setup ========== */
+
+.Setup li {
+    display: inline-block;
+    width: 18%;
+    border: 1px solid #D6E3F5;
+    background: #EFF6FF;
+    height: 80px;
+    border-radius: 8px;
+    text-align: center;
+    /* margin-bottom: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Setup li p span {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Setup li p {
+    margin: 0;
+}
+
+.Setup li p span {
+    font-size: 12px;
+}
+
+.Setup li p img {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+
+.Setup ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* =================home============== */
+.Dashboard_index {
+    display: flex;
+}
+
+.Dashboard_index_menu {
+    border: 1px solid #D6E3F5;
+    background: #EFF6FF;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.Dashboard_index_menu li {
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 9px 13px;
+    width: 200px;
+    border-radius: 6px;
+}
+
+.Dashboard_index_menu li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.service_index_ul ul li {
+    background: #0093DD;
+    border-radius: 8px;
+    padding: 12px 13px;
+    margin: 4px 0px;
+    width: 23.5%;
+    height: 64px;
+}
+
+.service_index_ul ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service_index_ul ul li a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.service_index_ul ul li a p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    line-height: initial;
+    margin-left: 5px;
+}
+
+.service_index_ul ul li a img {
+    width: 30px;
+    height: 30px;
+}
+
+.Dashboard_index_all_cont {
+    padding-left: 15px;
+}
+
+.Dashboard_contect_index {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.Dashboard_dail_box {
+    background: #EFF6FF;
+    border: 1px solid #D6E3F5;
+    height: 201px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Dashboard_dail h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.Dashboard_dail h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.Dashboard_dail p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0;
+}
+
+.Table_from_to_date input#hide_checkbox {
+    width: auto;
+    width: 16px;
+    height: 16px;
+}
+
+.Table_from_to_date label {
+    display: flex;
+    align-items: center;
+}
+
+.Table_from_to_date label span {
+    color: #666666;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+.Accounts_Related_Table.Col01-table table {
+    margin-top: 0;
+}
+
+.user_name p {
+    margin: 0;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 500;
+}
+
+/* ================== Farmer Related ================== */
+
+.Farmer_Related_table_singel table {
+    width: 100%;
+}
+
+.Farmer_Related_add_ress_grid {
+    display: flex;
+    width: 100%;
+}
+
+.Farmer_Related_add_ress_box {
+    background: #0093DD;
+    padding: 15px 33px;
+    border-top-left-radius: 8px;
+    width: 70%;
+    color: #fff;
+}
+
+.Farmer_Related_add_ress_box:last-child {
+    width: 30%;
+    border-top-right-radius: 8px;
+    background: #006EA6;
+    border-top-left-radius: 0;
+}
+
+tr.Farmer_Related_table_singel_heading,
+tr.total_farmer_related {
+    background: #EFF6FF;
+}
+
+.Farmer_Related_table_singel td,
+.Farmer_Related_table_singel th {
+    padding: 9px 15px;
+}
+
+.Farmer_Related_table_singel {
+    width: 100%;
+    border: 1px solid #D6E3F5;
+    border-radius: 8px;
+}
+
+.Farmer_Related_Signature p {
+    margin: 0;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 500;
+}
+
+.Farmer_Related_Signature {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px;
+    padding-bottom: 30px;
+}
+
+.Farmer_Related_Signature_name {
+    color: #0093DD !important;
+}
+
+.Farmer_Related_add_ress_box p {
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Farmer_Related_add_ress_box h4 {
+    margin: 0 0;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Farmer_Related_add_ress_box span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Farmer_Related_add_ress_box:last-child h6 {
+    margin: 0 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+
+
+.Farmer_Related_table_singel td,
+.Farmer_Related_table_singel th {
+    padding: 9px 15px;
+    border-left: 1px solid #D6E3F5;
+}
+
+.Farmer_Related_table_singel td:first-child,
+.Farmer_Related_table_singel th:first-child {
+    border: none;
+}
+
+.text_arey_type_with_box {
+    background: #EFF6FF;
+    border: 1px solid #D6E3F5;
+    width: 80%;
+    height: 130px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.input_entry_form.Advance_Payment_check_box input {
+    width: 33%;
+}
+
+.check_box_Advance {
+    width: 67%;
+}
+
+.check_box_Advance span {
+    text-align: start;
+}
+
+.input_entry_form.Advance_Payment_check_box label input {
+    width: fit-content;
+}
+
+.check_box_Advance span {
+    font-size: 12px;
+}
+
+.check_box_Advance label {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.input_entry_form.Advance_Payment_check_box label input {
+    width: fit-content;
+    margin-right: 9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid #D6E3F5
+}
+
+.modal-content.exit_modal_cont {
+    background: #0093DD;
+    width: 450px;
+    height: 250px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.modal-content.exit_modal_cont .modal-body {
+    flex: none;
+}
+
+/* ======={ Financial Accounted Related }======== */
+
+.table_name {
+    padding-top: 20px;
+    margin: 0 !important;
+    line-height: 0.2;
+}
+
+.Financial_Accounts_Related_Total {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: right;
+}
+
+.Financial_Accounts_Related_Total p {
+    margin: 0;
+    font-size: 14px;
+    color: #444444;
+    width: 90px;
+    font-weight: 500;
+    text-align: end;
+}
+
+.Financial_Accounts_Related_Total span {
+    border: 1px solid #d6e3f5;
+    border-radius: 4px;
+    width: 130px;
+    padding: 7px 9px;
+    margin-left: 13px;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+}
+
+.Accounts_Related_Table_toal_am {
+    margin-top: 12px;
+}
+
+/* ==========={ Trial Balance }========== */
+.trial_balance_total {
+    background-color: #d6e3f5;
+}
+
+.Accounts_Related_Total {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: right;
+}
+
+.Accounts_Related_Total p {
+    margin: 0;
+    font-size: 14px;
+    color: #444444;
+    width: 45px;
+    font-weight: 500;
+}
+
+.Accounts_Related_Total span {
+    border: 1px solid #d6e3f5;
+    border-radius: 4px;
+    width: 130px;
+    padding: 7px 9px;
+    margin-left: 13px;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+}
+
+.Accounts_Related_Table_toal_am {
+    margin-top: 12px;
+}
+
+/* ==========={ Finacial Accounting  Related -Balance sheet } ==============*/
+
+tr.table_inner_heding {
+    background: #d6e3f5;
+}
+
+tr.table_inner_heding th {
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* =========={ Menu button CSS }========== */
+
+/* .sitebar {
+    display: none;
+} */
+
+/* .sitebar.show {
+    display: block;
+} */
+
+/* Style for the hamburger icon */
+/* .show-menu-btn span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    display: block;
+    margin: 5px auto;
+    transition: all 0.3s ease;
+}
+
+
+
+.show-menu-btn.show span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.show-menu-btn.show span:nth-child(2) {
+    opacity: 0;
+}
+
+.show-menu-btn.show span:nth-child(3) {
+    transform: rotate(-50deg) translate(5px, -5px);
+} */
+
+.show-menu-btn {
+    display: none;
+}
+
+.far_led_patti_wise {
+    display: flex;
+    justify-content: end;
+}
+
+.far-led-patti-wise span {
+    width: 95px;
+    margin: 0;
+}
+
+.far-led-patti-wise p {
+    text-align: start;
+}
+
+.cus-led-for-2 span {
+    width: 113px;
+    margin-left: 0;
+    margin-top: 5px;
+}
+
+.cus-led-for-2 p {
+    width: 113px;
+    text-align: start;
+}
+
+.date-input {
+    margin: 0;
+}
+
+.date-input span {
+    max-width: 49px;
+}
+
+.voucher-input {
+    margin-left: 40px;
+}
+
+.payment-cont {
+    width: 27%;
+}
+
+.payment-content {
+    gap: 15px;
+}
+
+.margin-0 {
+    margin: 0 10px !important;
+}
+
+.select-input {
+    margin-left: 5px;
+}
+
+.total_amn_width {
+    width: 80%;
+}
+
+.far-led-patti-wise {
+    width: 436px !important;
+}
+
+.customer-ledger-format-2 td {
+    padding: 4px 10px !important;
+}
+
+.border-fff {
+    border-bottom: 1px solid white !important;
+}
+
+.balance-sheet-row th {
+    padding: 4px 10px !important;
+    border-width: 1px !important;
+}
+
+.input_width_S {
+    margin: -3px !important;
+}
+
+.cus-rec-entry-s {
+    margin-left: 5px !important;
+}
+
+.date_input_other_account {
+    width: 70% !important;
+}
+
+.setup-body-content {
+    padding: 25px 25px 150px 25px !important;
+}
+
+.voucher-content-s {
+    max-width: 117px !important;
+}
+
+.width-0 {
+    display: flex !important;
+    align-items: center !important;
+    margin-left: 12px !important;
+}
+
+.Ahmednagar-btn {
+    height: 36px !important;
+}
+
+.inner_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.inner_content p {
+    margin: 0 !important;
+    font-size: large;
+}
+
+.custom-modal-width {
+    max-width: 600px;
+    /* Adjust the width as needed */
+    width: fit-content;
+}
+
+.total-last td {
+    font-weight: bold;
+}
+
+.total-heading th {
+    padding: 0 10px;
+}
+
+.marquee_tag {
+    margin-top: 30px;
+}
+
+.marquee_tag li {
+    display: inline-block;
+    margin-right: 10px;
+    /* background: #0093dd; */
+    border-radius: 30px;
+    padding: 4px 16px;
+}
+
+.marquee_tag li a {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+
+marquee {
+    background: #000;
+}
+
+.copy_right p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 15px;
+}
